@@ -1,0 +1,43 @@
+specialization{ 
+    display:block;
+    text-align:center;
+    margin:10px 20px 10px 20px;
+    margin-top:12pt;
+    border-style:double;
+    border-color:#8C0088;
+    font-size:15pt}
+name{ 
+    font-style:italic;
+    text-align:center
+}
+mark{ 
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    border-top:double;
+    border-color:#8C0088
+}
+plan{ 
+    display:block;
+    text-align:center;
+    border-top:double;
+    border-color:#8C0088
+}
+city{ 
+    display:block;
+    text-align:center;
+    border-top:double;
+    border-color:#8C0088
+}
+passing{ 
+    display:block;
+    text-align:center;
+    border-top:double;
+    border-color:#8C0088
+}
+Faculty{ 
+    display:block;
+    width: 500px;
+    margin:100px 100px;
+    border-style:solid
+}

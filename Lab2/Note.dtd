@@ -1,0 +1,9 @@
+<!DOCTYPE Faculty 
+[
+<!ELEMENT Faculty (specialization)>
+<!ELEMENT specialization (name, mark, plan, city)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT plan (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+]>

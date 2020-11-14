@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="Note.xsd">
+    <List>
+        <Student>
+            <surname>Ферзь</surname>
+            <name>Потап</name>
+            <patronymic>Иваныч</patronymic>
+            <mark>7</mark>
+            <year>1995</year>
+        </Student>
+    </List>
+</scheme>

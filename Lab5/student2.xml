@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="Note.xsd">
+    <List>
+        <Student>
+            <surname>Лапенко</surname>
+            <name>Людмилла</name>
+            <patronymic>Викторовна</patronymic>
+            <mark>3</mark>
+            <year>2001</year>
+        </Student>
+    </List>
+</scheme>

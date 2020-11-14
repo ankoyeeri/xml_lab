@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Faculty SYSTEM "Note.dtd">
+<?xml-stylesheet type="text/xsl" href="3.xslt"?>
+    <Faculty>
+        <specialization>
+            <name>БГУ</name>
+            <mark>320 баллов</mark>
+            <plan>100 человек</plan>
+            <city>Минск</city>
+        </specialization>
+        <specialization>
+            <name>БГТУ</name>
+            <mark>250 баллов</mark>
+            <plan>50 человек</plan>
+            <city>Минск</city>
+        </specialization>
+        <specialization>
+            <name>БГУИР</name>
+            <mark>220 баллов</mark>
+            <plan>150 человек</plan>
+            <city>Минск</city>
+        </specialization>
+        <specialization>
+            <name>БНТУ</name>
+            <mark>210 баллов</mark>
+            <plan>200 человек</plan>
+            <city>Минск</city>
+        </specialization>
+    </Faculty>

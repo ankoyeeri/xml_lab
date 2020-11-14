@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="4.xsl"?>
+<List>
+    <Student>
+        <surname>Вольнов</surname>
+        <name>Дмитрий</name>
+        <patronymic>Сергеевич</patronymic>
+        <mark>6</mark>
+        <year>1998</year>
+    </Student>
+    <Student>
+        <surname>Лапенко</surname>
+        <name>Людмилла</name>
+        <patronymic>Викторовна</patronymic>
+        <mark>3</mark>
+        <year>2001</year>
+    </Student>
+    <Student>
+        <surname>Ферзь</surname>
+        <name>Потап</name>
+        <patronymic>Иваныч</patronymic>
+        <mark>7</mark>
+        <year>1995</year>
+    </Student>
+</List>

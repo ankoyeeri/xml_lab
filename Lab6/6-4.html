@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Лабораторная работа 6</title>
+</head>
+
+<body>
+    <svg width="600" height="600">
+        <rect fill="linen" width="100%" height="100%" />
+        
+        <style>
+            .col-1 {
+                fill: #F35c78;
+                stroke: #752c39;
+                stroke-width: 3px;
+            }
+
+            .col-2 {
+                fill: #e77d6d;
+                stroke: #895a53;
+                stroke-width: 3px;
+                stroke-linejoin: miter;
+            }
+
+            .col-3 {
+                fill: #d99b64;
+                stroke: #906846;
+                stroke-width: 5px;
+                stroke-linejoin: round;
+            }
+
+            .col-4 {
+                fill: #64d999;
+                stroke: #49795f;
+                stroke-width: 3px;
+            }
+
+            .col-5 {
+                fill: #c962cc;
+                stroke: #764f78;
+                stroke-width: 3px;
+            }
+        </style>
+        
+        <defs>
+            <path id="home"
+                d="M100 59.375l-18.75-18.75v-28.125h12.5v15.625l-18.75-18.75-50 50v3.125h12.5v31.25h31.25v18.75h12.5v18.75h31.25v-31.25h12.5z" />
+        </defs>
+
+        <use xlink:href="#home" class="col-1" x="50" y="10" transform="rotate(40 120 20)"/>
+        <use xlink:href="#home" class="col-2" x="200" y="10" transform="scale(0.867 1.22)"/>
+        <use xlink:href="#home" class="col-3" x="350" y="10" transform="skewX(510)"/>
+        <use xlink:href="#home" class="col-4" x="50" y="200" transform="skewY(40)"/>
+        <use xlink:href="#home" class="col-5" x="200" y="200" transform="translate(40 50)"/>
+    </svg>
+</body>
+
+</html>

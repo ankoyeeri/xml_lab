@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Лабораторная работа 6</title>
+</head>
+
+<body>
+    <div>
+        <!-- Задание 1 -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <rect x="5" y="5" width="220" height="130" fill="burlywood" stroke="black" stroke-width="2"></rect>
+            <!-- Задание 2 -->
+            <polygon points="30,100 115,20 200,100" fill="red" fill-opacity="0.30" stroke="white" 
+            stroke-width="2" transform="scale(1.11)">
+            </polygon>
+        </svg>
+    </div>
+
+    <div style="margin-top: 50px;"></div>
+        <!-- Задание 2, 3 -->
+        <svg style="width: 300px; height:300px">
+            <rect x="5" y="5" width="200" height="100" rx="20" ry="40" fill="url(#MyGradient1)" stroke="black" 
+            transform="rotate(15 30 200)"></rect>
+            <circle  r="65" cx="100" cy="200" fill="url(#MyGradient2)" stroke="black"></circle>
+            
+            <defs>
+                <linearGradient id="MyGradient1">
+                    <stop offset="30%" stop-color="red"/>
+                    <stop offset="70%" stop-color="yellow"/>
+                </linearGradient>
+                <linearGradient id="MyGradient2">
+                    <stop offset="30%" stop-color="green"/>
+                    <stop offset="70%" stop-color="lime"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+</body>
+
+</html>
